@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to RK Solution - Your one-stop solution for all your needs.">
+  <meta name="keywords" content="RK Solution, services, contact, about us">
+  <meta name="author" content="RK Solution">
+  <title>The One - RK Solution</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* Common Button Style for All Links */
+    .nav-link.custom-link {
+      background-color: #007bff; /* Blue background like Sign In button */
+      color: white; /* White text */
+      padding: 10px 20px;
+      border-radius: 5px; /* Rounded corners */
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+      text-decoration: none; /* Remove underline */
+    }
+
+    /* Hover Effects for All Links */
+    .nav-link.custom-link:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      transform: scale(1.05); /* Slight zoom effect */
+    }
+
+    /* Optional: Add spacing between navigation items */
+    .nav-item {
+      margin-right: 15px;
+    }
+
+    /* Contact Information Section with Stunning Background */
+    .contact-info {
+      background: url('https://your-image-url.com/your-image.jpg') no-repeat center center; 
+      background-size: cover; /* Cover the entire section */
+      padding: 80px 20px;
+      color: white; /* Text color */
+      position: relative;
+    }
+
+    /* Gradient Overlay for better text visibility */
+    .contact-info::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+      z-index: 1; /* Place overlay behind text */
+    }
+
+    /* Heading styling */
+    .contact-info h2 {
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 30px;
+      z-index: 2; /* Ensure heading is above overlay */
+      position: relative;
+    }
+
+    /* Paragraph text styling */
+    .contact-info p {
+      font-size: 18px;
+      text-align: center;
+      z-index: 2; /* Ensure text is above overlay */
+      position: relative;
+    }
+
+    /* Social Media Icons styling */
+    .social-icons {
+      text-align: center;
+      margin-top: 30px;
+      z-index: 2; /* Ensure icons are above overlay */
+      position: relative;
+    }
+
+    .social-icons a {
+      font-size: 40px;
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #007bff; /* Hover effect color */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .contact-info h2 {
+        font-size: 28px;
+      }
+      .contact-info p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid"><a class="navbar-brand" href="index.html">
+      <img src="https://th.bing.com/th/id/OIP.7MvMQUGC6VU1rJKFoHu54QAAAA?rs=1&pid=ImgDetMain" alt="RK Solution" height="50px" width="50px">RK Solutions</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="About.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light" href="index.html">Sign Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Information Section -->
+  <section class="contact-info">
+    <h2>Contact Information</h2>
+    <p><strong>Coaching Institute Name:</strong> RK Solutions</p>
+    <p><strong>Address:</strong> RK Solution Coaching Center, Hyderabad, Telangana, 500072</p>
+    <p><strong>Email:</strong> Rksolution01@gmail.com</p>
+    <p><strong>Phone:</strong> +91 928376 2XXXX</p>
+
+    <!-- Social Media Links -->
+    <div class="social-icons">
+      <a href="https://www.youtube.com" target="_blank" title="YouTube">
+        <i class="bi bi-youtube"></i> <!-- Bootstrap Icon for YouTube -->
+      </a>
+      <a href="https://www.instagram.com" target="_blank" title="Instagram">
+        <i class="bi bi-instagram"></i> <!-- Bootstrap Icon for Instagram -->
+      </a>
+      <a href="https://www.facebook.com" target="_blank" title="Facebook">
+        <i class="bi bi-facebook"></i> <!-- Bootstrap Icon for Facebook -->
+      </a>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <!-- Bootstrap Icons (for social media icons) -->
+</body>
+</html>

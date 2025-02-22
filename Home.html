@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to RK Solution - Your one-stop solution for all your coaching needs.">
+  <meta name="keywords" content="RK Solution, coaching, courses, learning, education">
+  <meta name="author" content="RK Solution">
+  <title>RK Solution Coaching</title>
+  <!-- Include external styles.css if you have it -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* Common Button Style for All Links */
+    .nav-link.custom-link {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      text-decoration: none;
+    }
+
+    /* Hover Effects for All Links */
+    .nav-link.custom-link:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+
+    /* Optional: Add spacing between navigation items */
+    .nav-item {
+      margin-right: 15px;
+    }
+
+    /* Hero Section with Stunning Background Image */
+    .hero-section {
+      background: url('https://tse3.mm.bing.net/th?id=OIG2.4WF2IGKLUTh1djY1FfkF&pid=ImgGn') no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      position: relative;
+      transition: background 0.5s ease;
+    }
+
+    /* Gradient Overlay for Hero Section */
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    .hero-section h1 {
+      font-size: 50px;
+      font-weight: bold;
+      z-index: 2;
+      position: relative;
+      animation: fadeInUp 2s ease-in-out;
+    }
+
+    .hero-section p {
+      font-size: 22px;
+      z-index: 2;
+      position: relative;
+      animation: fadeInUp 2s ease-in-out 0.5s;
+    }
+
+    /* Keyframe Animation for Fading In */
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Carousel Styling */
+    .carousel-item img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-item img:hover {
+      transform: scale(1.1);
+    }
+
+    /* How We Work Section */
+    .how-we-work {
+      background-color: #638c9c;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 2s ease-in-out;
+    }
+
+    .how-we-work h2 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: rgba(245, 24, 24, 0.6);
+    }
+
+    .how-we-work p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .how-we-work .steps {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      background-color: rgb(215, 250, 234);
+    }
+
+    .how-we-work .step {
+      width: 30%;
+      padding: 20px;
+      background-color: rgba(43, 227, 244, 0.785);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .how-we-work .step:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .how-we-work .step h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero-section h1 {
+        font-size: 35px;
+      }
+
+      .hero-section p {
+        font-size: 18px;
+      }
+
+      .how-we-work .steps {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .how-we-work .step {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://th.bing.com/th/id/OIP.7MvMQUGC6VU1rJKFoHu54QAAAA?rs=1&pid=ImgDetMain" alt="RK Solution"
+          height="50px" width="50px"> RK Solution
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="About.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light" href="index.html">Sign Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Background Image -->
+  <section class="hero-section">
+    <div>
+      <h1>Welcome to RK Solution</h1>
+      <p>Your path to success starts here. Join our world-class coaching programs.</p>
+    </div>
+  </section>
+
+  <!-- Image Carousel -->
+  <section class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img height="300px" src="https://media.istockphoto.com/id/2163913008/photo/group-of-four-indian-asian-young-college-friends-with-backpack-books-laptop-standing-isolated.jpg?s=1024x1024&w=is&k=20&c=Ornh_XqEOT84KxzmLROhAIWM9XsDPTSWudU7nY-1xMA=" alt="Group of students" class="d-block w-100 carousel-img">
+      </div>
+      <div class="carousel-item">
+        <img height="300px" src="https://tse4.mm.bing.net/th?id=OIG3.pz44DHNPhSG_KFtLzhDc&pid=ImgGn" alt="Students in classroom"
+        class="d-block w-100 carousel-img">
+      </div>
+      <div class="carousel-item">
+        <img height="300px" src="https://tse2.mm.bing.net/th?id=OIG4.1QDFr0t6fw0vHvcvZEQR&pid=ImgGn" alt="Training session"
+        class="d-block w-100 carousel-img">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target=".carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target=".carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+
+  <!-- How We Work Section -->
+  <section class="how-we-work">
+    <h2>How We Work</h2>
+    <p>At RK Solution Coaching, we provide personalized learning experiences for each student. Our approach ensures success
+      in every step.</p>
+    <div class="steps">
+      <div class="step">
+        <h3>Step 1: Understanding Your Needs</h3>
+        <p>We start by assessing your goals and understanding your unique learning style to create a tailored plan.</p>
+      </div>
+      <div class="step">
+        <h3>Step 2: Expert Coaching</h3>
+        <p>Our experienced instructors provide comprehensive coaching with practical insights and hands-on learning.</p>
+      </div>
+      <div class="step">
+        <h3>Step 3: Continuous Support</h3>
+        <p>We offer continuous support and feedback to ensure you're on track and progressing effectively.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

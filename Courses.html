@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to RK Solution - Your one-stop solution for all your needs.">
+  <meta name="keywords" content="RK Solution, services, contact, about us">
+  <meta name="author" content="RK Solution">
+  <title>The One - RK Solution</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Common Button Style for All Links */
+    .nav-link.custom-link {
+      background-color: #007bff; /* Blue background like Sign In button */
+      color: white; /* White text */
+      padding: 10px 20px;
+      border-radius: 5px; /* Rounded corners */
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+      text-decoration: none; /* Remove underline */
+    }
+
+    /* Hover Effects for All Links */
+    .nav-link.custom-link:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      transform: scale(1.05); /* Slight zoom effect */
+    }
+
+    /* Optional: Add spacing between navigation items */
+    .nav-item {
+      margin-right: 15px;
+    }
+
+    /* Styling for course cards */
+    .course-card {
+      margin: 20px 0;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://th.bing.com/th/id/OIP.7MvMQUGC6VU1rJKFoHu54QAAAA?rs=1&pid=ImgDetMain" alt="RK Solutions Logo" height="50px" width="50px">RK Solutions
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light" href="index.html">Sign Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Our Popular Courses</h2>
+    <div class="row">
+      <!-- Course Card 1: Java -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img width="300px" height="200px" src="https://th.bing.com/th/id/OIP.vQpA3TUhXqnP5P7Lg4tBzAHaEK?rs=1&pid=ImgDetMain" class="card-img-top" alt="Java Course">
+          <div class="card-body">
+            <h5 class="card-title">Java Programming</h5>
+            <p class="card-text">Fees: 35,000 | Duration: 4 Months</p>
+            <a href="javaCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 2: Python -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img width="300px" height="200px" src="https://image.shutterstock.com/image-illustration/python-course-3d-illustration-concept-260nw-1643839609.jpg" class="card-img-top" alt="Python Course">
+          <div class="card-body">
+            <h5 class="card-title">Python Programming</h5>
+            <p class="card-text">Fees: 35,000 | Duration: 4 Months</p>
+            <a href="pythonCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Course Card 3: Web Development -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img width="300px" height="200px" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg" class="card-img-top" alt="Web Development Course">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Fees: 20,000 | Duration: 4 Months</p>
+            <a href="webDevelopmentCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 4: Data Science -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img width="300px" height="200px" src="https://th.bing.com/th/id/OIP.t6kWyj3He867zRMwP7j5fQHaEP?rs=1&pid=ImgDetMain" class="card-img-top" alt="Data Science Course">
+          <div class="card-body">
+            <h5 class="card-title">Data Science</h5>
+            <p class="card-text">Fees: 35,000 | Duration: 5 Months</p>
+            <a href="dataScienceCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Course Card 5: Machine Learning -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img width="300px" height="200px" src="https://th.bing.com/th/id/OIP.da0kQB2SUzpO2pzwO2xjBgHaDv?rs=1&pid=ImgDetMain" class="card-img-top" alt="Machine Learning Course">
+          <div class="card-body">
+            <h5 class="card-title">Machine Learning</h5>
+            <p class="card-text">Fees: 40,000 | Duration: 6 Months</p>
+            <a href="machineLearningCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 6: Mobile App Development -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img width="300px" height="200px" src="https://th.bing.com/th/id/OIP.r19oljOim__uTIRUEL3RxQHaFc?rs=1&pid=ImgDetMain" class="card-img-top" alt="Mobile App Development Course">
+          <div class="card-body">
+            <h5 class="card-title">Mobile App Development</h5>
+            <p class="card-text">Fees: 25,000 | Duration: 6 Months</p>
+            <a href="mobileAppCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Course Card 7: Digital Marketing -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img width="300px" height="200px" src="https://th.bing.com/th/id/OIP.gZaMYqCZzoGqmelJwJTAGgHaHZ?rs=1&pid=ImgDetMain" class="card-img-top" alt="Digital Marketing Course">
+          <div class="card-body">
+            <h5 class="card-title">Digital Marketing</h5>
+            <p class="card-text">Fees: 22,000 | Duration: 3 Months</p>
+            <a href="digitalMarketingCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 8: Graphic Design -->
+      <div class="col-md-6">
+        <div class="card course-card">
+          <img src="https://www.trainingforweb.co.uk/wp-content/uploads/2015/10/graphic-design-courses.jpg" width="300px" height="200px" class="card-img-top" alt="Graphic Design Course">
+          <div class="card-body">
+            <h5 class="card-title">Graphic Design</h5>
+            <p class="card-text">Fees: 25,000 | Duration: 5 Months</p>
+            <a href="graphicDesignCourse.html" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

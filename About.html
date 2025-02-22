@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to RK Solution - Your one-stop solution for all your needs.">
+  <meta name="keywords" content="RK Solution, services, contact, about us">
+  <meta name="author" content="RK Solution">
+  <title>The One - RK Solution</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Common Button Style for All Links */
+    .nav-link.custom-link {
+      background-color: #007bff; /* Blue background like Sign In button */
+      color: white; /* White text */
+      padding: 10px 20px;
+      border-radius: 5px; /* Rounded corners */
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+      text-decoration: none; /* Remove underline */
+    }
+
+    /* Hover Effects for All Links */
+    .nav-link.custom-link:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      transform: scale(1.05); /* Slight zoom effect */
+    }
+
+    /* Optional: Add spacing between navigation items */
+    .nav-item {
+      margin-right: 15px;
+    }
+
+    /* Styling for course cards */
+    .course-card {
+      margin: 20px 0;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* About Section Styling */
+    .about-section {
+      background-image: url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* New background image */
+      background-size: cover;
+      background-position: center;
+      padding: 60px 0;
+      color: white;
+      text-align: center;
+    }
+
+    .about-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .about-description {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      opacity: 0.8;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Scroll Image Styling */
+    .scrolling-images {
+      display: flex;
+      overflow-x: scroll;
+      margin-top: 40px;
+    }
+
+    .scrolling-images img {
+      width: 300px;
+      margin-right: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .scrolling-images img:hover {
+      transform: scale(1.1); /* Slight zoom effect on hover */
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://th.bing.com/th/id/OIP.7MvMQUGC6VU1rJKFoHu54QAAAA?rs=1&pid=ImgDetMain" alt="RK Solutions Logo" height="50px" width="50px">RK Solutions
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="Courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light" href="index.html">Sign Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- About RK Solution Section -->
+  <section class="about-section">
+    <h2 class="about-heading">About RK Solution</h2>
+    <p class="about-description">
+      RK Solution is a leading provider of high-quality education and training. With years of experience in delivering personalized learning experiences, we help our students excel in their chosen fields. Our expert faculty, state-of-the-art classrooms, and interactive learning methods create an environment conducive to growth and success.
+      <br><br>
+      We understand the importance of practical knowledge, and we provide our students with access to recorded videos of previous classes for review, ensuring that learning continues outside the classroom.
+    </p>
+
+    <div class="scrolling-images">
+      <!-- Example of Previous Class Recordings -->
+      <img src="https://plus.unsplash.com/premium_photo-1681248156496-550d1ad34c65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Classroom 1" data-bs-toggle="popover" title="Classroom 1" data-bs-content="Our classrooms are equipped with the latest technology for a seamless learning experience.">
+      <img src="https://plus.unsplash.com/premium_photo-1691873264445-c987c16a3ba9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Classroom 2" data-bs-toggle="popover" title="Classroom 2" data-bs-content="Interactive sessions help students grasp concepts more easily.">
+      <img src="https://media.istockphoto.com/id/1427697353/photo/friendly-professor-explaining-exercise-to-students-in-high-school-classroom-young-teacher.jpg?s=1024x1024&w=is&k=20&c=mWvtMyUqDJTMzbyw_2vl1i9of2gSqvmu99NiT8ep26M=" alt="Classroom 3" data-bs-toggle="popover" title="Classroom 3" data-bs-content="Recorded sessions allow for flexible learning and revision.">
+      <img src="https://th.bing.com/th/id/R.c12129c36f7b9e1ad96c8e31d8dfcbee?rik=NZ72Npc2JqeX8w&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f8%2f8a%2fComputer_lab_1.jpg&ehk=DTXcGi%2fsYTVG18sbB9dLwL77speGNx0RJyAgRAqXGZA%3d&risl=1&pid=ImgRaw&r=0" alt="Classroom 1" data-bs-toggle="popover" title="Classroom 1" data-bs-content="Our classrooms are equipped with the latest technology for a seamless learning experience.">
+    </div>
+
+    <div class="container mt-5">
+      <!-- Contact Form with Placeholders -->
+      <form  action="About.html">
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Write your message here" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    // Initialize Bootstrap Popovers
+    document.addEventListener('DOMContentLoaded', function () {
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    });
+  </script>
+</body>
+</html>

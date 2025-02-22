@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to RK Solution - Your one-stop solution for all your needs.">
+  <meta name="keywords" content="RK Solution, services, contact, about us">
+  <meta name="author" content="RK Solution">
+  <title>The One - RK Solution</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Common Button Style for All Links */
+    .nav-link.custom-link {
+      background-color: #007bff; /* Blue background like Sign In button */
+      color: white; /* White text */
+      padding: 10px 20px;
+      border-radius: 5px; /* Rounded corners */
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+      text-decoration: none; /* Remove underline */
+    }
+
+    /* Hover Effects for All Links */
+    .nav-link.custom-link:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      transform: scale(1.05); /* Slight zoom effect */
+    }
+
+    /* Optional: Add spacing between navigation items */
+    .nav-item {
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid"><a class="navbar-brand" href="index.html">
+      <img src="https://th.bing.com/th/id/OIP.7MvMQUGC6VU1rJKFoHu54QAAAA?rs=1&pid=ImgDetMain" alt="RK Solution" height="50px" width="50px">RK Solutions</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Home Link -->
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="index.html">Home</a>
+          </li>
+          <!-- About Us Link -->
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="index.html">About Us</a>
+          </li>
+          <!-- Services Link -->
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="index.html">Courses</a>
+          </li>
+          <!-- Contact Link -->
+          <li class="nav-item">
+            <a class="nav-link custom-link" href="index.html">Contact</a>
+          </li>
+          <!-- Sign In Button
+          <li class="nav-item">
+            <a class="btn btn-outline-light" href="signIn.html">Sign In</a>
+          </li> -->
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div>
+
+    <form
+  action="Home.html"
+  
+>
+<label>User Name<input type="text" name="text" required></label><br>
+
+  <label>
+    Your email:
+    <input type="email" name="email" required>
+  </label><br>
+  <label >Password:<input type="password" name="password" required></label><br>
+  <label>
+    Which Course You In Intrest:
+    <textarea name="message" required></textarea>
+  </label><br>
+  <!-- your other form fields go here -->
+  <input type="submit" name="Sign Up" id="Sign Up"></input>
+</form>
+
+  </div>
+  
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
